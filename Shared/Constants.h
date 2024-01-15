@@ -32,8 +32,8 @@ typedef enum {
 /// Bundles and Bezelservices
 
 /// Added some x's to the bundleID. See notes.md for context.
-#define kMFBundleIDApp      @"com.nuebling.mac-mouse-fix"
-#define kMFBundleIDHelper   @"com.nuebling.mac-mouse-fix.helper"
+#define kMFBundleIDApp      @"com.nuebling.mac-mouse-fix.mine"
+#define kMFBundleIDHelper   @"com.nuebling.mac-mouse-fix.helper.mine"
 
 //#define kMFRelativeAccomplicePath           @"Contents/Library/LaunchServices/Mac Mouse Fix Accomplice"
 #define kMFRelativeHelperAppPath            @"Contents/Library/LoginItems/Mac Mouse Fix Helper.app"
@@ -47,7 +47,7 @@ typedef enum {
 #define kMFAccompliceName   @"Mac Mouse Fix Accomplice"
 #define kMFHelperName       @"Mac Mouse Fix Helper.app"
 
-#define kMFLaunchdHelperIdentifier  @"mouse.fix.helper" /// Should rename to `kMFLaunchdHelperLabel`
+#define kMFLaunchdHelperIdentifier  @"mouse.fix.helper.mine" /// Should rename to `kMFLaunchdHelperLabel`
 /// ^ Keep this in sync with `Label` value in `default_launchd.plist`
 /// ^ The old value "mouse.fix.helper" was also used with the old prefpane version which could lead to conflicts. See Mail beginning with 'I attached the system log. Happening with this version too'. Edit: We moved back to the old `mouse.fix.helper` label for the app version of Mac Mouse Fix. Reasoning:
 ///      We meant to move the launchd label over to a new one to avoid conlicts when upgrading from the old prefpane, but I think it can actually lead to more complications. Also we'd fragment things, because the first few versions of the app version already shipped with the old "mouse.fix.helper" label.

@@ -231,7 +231,8 @@ static void signal_handler(int signal_number, siginfo_t *signal_info, void *cont
         [TrialCounter load_Manual];
         
         [LicenseConfig getOnComplete:^(LicenseConfig * _Nonnull licenseConfig) {
-            [License checkAndReactWithLicenseConfig:licenseConfig triggeredByUser:NO];
+            // KEVTODO: disable license check
+            // [License checkAndReactWithLicenseConfig:licenseConfig triggeredByUser:NO];
         }];
         
         ///

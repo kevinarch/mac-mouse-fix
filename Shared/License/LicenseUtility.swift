@@ -75,7 +75,9 @@ import Cocoa
             /// Trial still active
                 
             let b = NSLocalizedString("trial-counter.active", comment: "First draft: Free day **%d/%d**")
-            base = String(format: b, daysOfUse, trialDays)
+            // KEVTODO: disable trial
+//            base = String(format: b, daysOfUse, trialDays)
+            base = b
         }
         
         /// Apply markdown

@@ -495,13 +495,13 @@
 "thanks.25" = "🌏 First the mice, then the world!! >:)";
 
 /* First draft: Free day **%d/%d** */
-"trial-counter.active" = "Free day **%d/%d**";
+"trial-counter.active" = "Normalized";
 
 /* First draft: Free days are over */
 "trial-counter.expired" = "Free days are over";
 
 /* First draft: Activate License */
-"trial-notif.activate-license-button" = "Activate License";
+"trial-notif.activate-license-button" = "Normalized";
 
 /* First draft: Hi there! You've been using Mac Mouse Fix for **%d days** now. I hope you're enjoying it!\n\nIf you want to keep using Mac Mouse Fix, you can [buy it now](%@). */
 "trial-notif.body" = "Hi there! You've been using Mac Mouse Fix for **%d days** now. I hope you're enjoying it!\n\nIf you want to keep using Mac Mouse Fix, you can [buy it now](%@).";
